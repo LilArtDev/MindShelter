@@ -292,11 +292,11 @@ nav.show div.icon-x {
 /* HOME */
 
 #home {
-    overflow: visible;
+    overflow: hidden;
     position: relative;
-    height: 22rem;
-    padding: 1rem 1rem;
+    height: 25rem;
     padding-top: var(--header-height);
+
     display: flex;
     justify-content: center;
     user-select: none;
@@ -304,6 +304,7 @@ nav.show div.icon-x {
 
 #home .container {
     position: relative;
+    height: 100%;
 }
 
 #home img.background {
